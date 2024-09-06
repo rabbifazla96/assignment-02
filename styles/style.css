@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-container {
+    max-width: 1440px;
+    height: auto;
+    background: linear-gradient(-180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    color: white;
+    padding: 50px 190px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-title {
+    color: rgb(230, 83, 60);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    font-style: italic;
+}
+
+.nav-menu {
+    width: 465px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 5px 20px 5px 5px;
+    background: none;
+}
+
+.menu-item {
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.active {
+    width: 92px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+
+.header-title {
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 100%;
+    margin-top: 95px;
+}
+
+.header-text-buttons {
+    width: 520px;
+    height: 440px;
+}
+
+.title-italic-text {
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+}
+
+.header-desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.header-buttons {
+    margin-top: 30px;
+}
+
+.header-join {
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.header-download {
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.hero-image-container {
+    position: absolute;
+    bottom: 0;
+    right: 215px;
+    width: 349px;
+    height: 580px;
+}
+
+.hero-card-01 {
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    right: 470px;
+    bottom: 63px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    background: rgba(48, 48, 48, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.card-01-title {
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+.card-01-desc {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.hero-card-02 {
+    width: 193px;
+    height: 98px;
+    position: absolute;
+    right: 130px;
+    top: 240px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-02-title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.card-02-desc {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 5px;
+}
