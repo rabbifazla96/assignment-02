@@ -235,3 +235,104 @@ body {
     text-align: left;
     margin-top: 5px;
 }
+
+.main-section {
+    max-width: 1440px;;
+    padding: 0 190px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+}
+
+.habits-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.habits-title-desc {
+    margin-top: 100px;
+    width: 671px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15;
+}
+
+.habits-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.habits-desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.habits {
+    width: 1044px;
+    height: 274px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40;
+    margin-top: 60px;
+}
+
+.habits-movement, .habits-time, .habits-practice, .habits-weight {
+    width: 231px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movement-image, .time-image, .practice-image, .weight-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #1a1a1a;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.movement-title, .time-title, .practice-title, .weight-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.movement-desc, .time-desc, .practice-desc, .weight-desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 6px;
+}
