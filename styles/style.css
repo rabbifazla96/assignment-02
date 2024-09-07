@@ -336,3 +336,73 @@ body {
     text-align: center;
     margin-top: 6px;
 }
+
+.extra-mile-container {
+    width: 1060px;
+    height: 371px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 100px;
+    padding: 40px 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extra-mile-text {
+width: 443px;
+height: 290px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+}
+
+.extra-mile-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.extra-mile-desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.extra-mile-button {
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+    margin-top: 35px;
+}
+
+.extra-mile-container .extra-mile-image-container {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    background-image: url('../images/run.jpg');
+    background-size: 300%;
+    background-position: 70% 30%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
