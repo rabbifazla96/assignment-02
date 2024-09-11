@@ -237,11 +237,13 @@ body {
 }
 
 .main-section {
+    width: 100%;
     max-width: 1440px;;
     padding: 0 190px;
-    /* display: flex;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     margin: 0 auto;
 }
 
@@ -342,20 +344,21 @@ body {
     height: 371px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    margin-top: 100px;
+    margin: 100px auto 0 auto;
     padding: 40px 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .extra-mile-text {
-width: 443px;
-height: 290px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
+    width: 443px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .extra-mile-title {
@@ -406,3 +409,159 @@ align-items: flex-start;
     background-repeat: no-repeat;
     overflow: hidden;
 }
+
+.calculator {
+    margin-top: 100px;
+}
+
+.calculator-title-desc {
+    width: 671px;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.calculator-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.calculator-desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 15px;
+}
+
+.calculator-container {
+    width: 1440px;
+    height: 487px;
+    background: rgb(34, 34, 34);
+    margin-top: 90px;
+    padding: 0 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.chart-table {
+    width: 310px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+.chart-table th {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 13px 18px;
+}
+
+.chart-table td {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 13px 18px;
+}
+
+.bmi-container {
+    width: 577px;
+}
+
+.bmi-title-desc {
+
+}
+
+.bmi-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.bmi-desc {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-top: 14px;
+}
+
+.bmi-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 34px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.bmi-input {
+    width: 100%;
+    height: 48px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.bmi-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bmi-button {
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 24px;
+}
+
